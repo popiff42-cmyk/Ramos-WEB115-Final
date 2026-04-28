@@ -1,0 +1,64 @@
+body {
+   margin: 20px;
+}
+
+
+.controls {
+   margin-bottom: 20px;
+}
+
+.control-group {
+   margin-bottom: 10px;
+}
+
+input,
+select,
+button {
+   margin: 0 5px;
+   padding: 5px;
+}
+
+button {
+   cursor: pointer;
+}
+
+#gridContainer {
+   border: 1px solid #ccc;
+   padding: 10px;
+}
+
+table {
+   border-collapse: collapse;
+}
+
+td {
+   width: 30px;
+   height: 30px;
+   border: 1px solid;
+   background: white;
+}
+
+td.wall {
+   background: black;
+}
+
+td.start {
+   background: rgb(11, 39, 196);
+}
+
+td.goal {
+   background: red;
+}
+
+td.visited {
+   background: rgb(162, 196, 84);
+}
+
+td.path {
+   background: rgb(3, 92, 11);
+}
+
+
+
+
+

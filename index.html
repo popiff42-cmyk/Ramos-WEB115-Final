@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <title>justice j pathidfner</title>
+   <link rel="stylesheet" href="style.css">
+   <script src="pathway.js" defer></script>
+</head>
+
+<body>
+   <div class="page">
+       <h1>juju pathfinder</h1>
+       <div id="gridContainer">
+           <table id="grid"></table>
+       <div class="controls">
+           <div class="control-group">
+               <label for="colCount">Columns:</label>
+               <input id="colCount" type="number" max="30" value="10">
+               <label for="rowCount">Rows:</label>
+               <input id="rowCount" type="number" max="20" value="10">
+               <button id="createGridButton">Create Grid</button>
+           </div>
+           <div class="control-group">
+               <label for="startPointX">Start point X:</label>
+               <input id="startPointX" type="number" min="1" value="1">
+               <label for="startPointY">Start point Y:</label>
+               <input id="startPointY" type="number" min="1" value="1">
+               <label for="endPointX">End point X:</label>
+               <input id="endPointX" type="number" min="1" value="10">
+               <label for="endPointY">End point Y:</label>
+               <input id="endPointY" type="number" min="1" value="10">
+               <button id="setPointsButton">Set start point</button>
+           </div>
+           <div class="control-group">
+               <label for="algorithm">Pathfinding:</label>
+               <select id="algorithm">
+                   <option value="BFS">Breadth First Search</option>
+               </select>
+               <button id="startSearchButton">Run</button>
+               <button id="resetButton">Reset</button>
+           </div>
+       </div>
+       </div>
+   </div>
+</body>
+
+</html>
+
+
+
+
+
